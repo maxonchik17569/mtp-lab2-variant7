@@ -12,6 +12,7 @@ from lab2.wordfreq import word_frequency
 
 def main() -> None:
     """Print results of every variant task."""
+    print("Medium tasks")
     print('count_vowels("Привет, world") ->', count_vowels("Привет, world"))
     print("min_element([4, 2, 9, 1]) ->", min_element([4, 2, 9, 1]))
     print("factorial(6) ->", factorial(6))
